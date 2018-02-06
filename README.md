@@ -31,6 +31,7 @@ X OR Y: represents doc that contains either X or Y
 NOT X: represents the doc that do not contain X
 5. Queries of the type X AND Y / 3 represents doc that contains both X and Y
 and 3 words apart.
+
 We will implement a Boolean Model by creating
 a posting list of all the terms present in the documents. You are free to implement a
 posting list with your choice of data structures; you are only allowed to preprocess
