@@ -1,6 +1,6 @@
 # Boolean-Retrieval-Model
 
-###Datasets
+### Datasets
 You are given two textual dataset for building inverted and positional index on it.
 Your dictionary must be written to disk, for each word in the lexicon you must store
 a file offset to the corresponding posting list, and finally, you should process the raw
@@ -9,7 +9,7 @@ multiple scans is prohibitive).
 For the Quran dataset, each verse constitutes a document.
 For the Hadeeth dataset, each hadeeth constitutes a document.
 
-###Query Processing
+### Query Processing
 In this assignment, all you need to implement an information retrieval model called
 Boolean Information Retrieval Model with some simplified assumptions. You will
 be provided with a bunch of overly simplified documents collection (corpus), you
